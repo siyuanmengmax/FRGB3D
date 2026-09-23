@@ -158,9 +158,13 @@ clouds before `run_realworld_detection.py`.
 The full raw dataset (LiDAR PCAP captures and CARLA simulation frames) is
 several hundred GB and is not hosted in this repository. A curated benchmark
 subset -- the 1000-frame, manually annotated real-world evaluation set used
-to compute the real-world AP numbers above -- is available at: **[Zenodo
-link -- to be added]**. Full raw data is available from the authors upon
-reasonable request.
+to compute the real-world AP numbers above -- is available on Zenodo:
+
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22896184-blue)](https://doi.org/10.5281/zenodo.22896184)
+
+The archive is split into several parts to accommodate upload limits; see
+the dataset's own README for reassembly instructions. Full raw data is
+available from the authors upon reasonable request.
 
 ## Citation
 
@@ -174,6 +178,18 @@ If you use this code or method, please cite:
   year    = {2026},
   publisher = {ASCE},
   doi     = {10.1061/JCCEE5/CPENG-7710},
+}
+```
+
+If you use the Lowell benchmark dataset, please also cite:
+
+```bibtex
+@dataset{meng_lowell_benchmark,
+  title   = {Lowell Dual-LiDAR Roadside Benchmark: 1,000 Annotated Frames},
+  author  = {Meng, Siyuan and Parashar, Pravar and Yang, Yu-Min and Ai, Chengbo},
+  year    = {2026},
+  publisher = {Zenodo},
+  doi     = {10.5281/zenodo.22896184},
 }
 ```
 
